@@ -20,9 +20,11 @@ Here, ADF for Pipeline creation, orchestration and automation.
       In below both example , Azure Logic Apps is used to send customized Email
 Here is high level design for it 
 In this example, ADF directly calling Azure Function using Azure Function Activity
+This is Pipeline 1 
 ![image](https://user-images.githubusercontent.com/64379307/187998004-85e5c757-ee6b-4c40-9170-382893d8738f.png)
 
 Here is another Example
 In this Example, ADF is not going to call Azure Fucntion Directly. However Azure Function trigger based on file arrives in Azure Blob Storage.
+This is pipeline 2
 ![image](https://user-images.githubusercontent.com/64379307/187998173-bc0f1fc1-25f6-44b5-baee-cab501a7aa6a.png)
 
